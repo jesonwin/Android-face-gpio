@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.arcsoft.sdk_demo"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.1"
+        multiDexEnabled false
+        sourceSets.main {
+            jniLibs.srcDirs = ['libs']
+        }
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:design:25.4.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/facedetection.jar')
+    compile files('libs/facerecognition.jar')
+    compile files('libs/facetracking.jar')
+    compile files('libs/ageestimation.jar')
+    compile files('libs/genderestimation.jar')
+    compile files('libs/genderestimation.jar')
+    compile 'com.guo.android_extend:android-extend:1.0.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+//    compile 'com.android.support:support-annotations:25.0.1'
+//    compile 'com.android.support.test:runner:1.0.1'
+//    compile 'com.android.support.test.espresso:espresso-core:3.0.1'
+//    compile 'com.android.support.test.espresso:espresso-contrib:3.0.1'
+}

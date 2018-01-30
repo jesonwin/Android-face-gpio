@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">emojiet</string>
+    <string name="agora_app_id">3b4c10f4c6fc4a5686274c3cc82c1767</string>
+    <string name="title_activity_main_">Main_Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

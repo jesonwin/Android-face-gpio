@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arcsoft.Home.HomeActivity">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/backgroundhome"
+            >
+
+            <ImageView
+                android:layout_width="232px"
+                android:layout_height="75px"
+                android:layout_marginLeft="100px"
+                android:layout_marginTop="40px"
+                android:src="@mipmap/logohome" />
+
+            <ImageView
+                android:layout_width="26px"
+                android:layout_height="32px"
+                android:layout_marginLeft="1421px"
+                android:layout_marginTop="62px"
+                android:src="@mipmap/location" />
+
+            <TextView
+                android:layout_width="380px"
+                android:layout_height="46px"
+                android:text="军工路100号众创空间"
+                android:textColor="#008AFF"
+                android:layout_marginLeft="1463px"
+                android:layout_marginTop="52px"
+                android:textSize="38px"
+                />
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginTop="152px"
+                android:background="#01325B" />
+
+            <LinearLayout
+                android:layout_width="522px"
+                android:layout_height="152px"
+                android:layout_marginLeft="325px"
+                android:layout_marginTop="246px"
+                android:background="@drawable/bg_edit_normal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/edit1"
+                    android:layout_width="400px"
+                    android:layout_height="56px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="34px"
+                    android:layout_marginTop="6px"
+                    android:hint="请输入房间号/开锁密码"
+                    android:textColor="#008AFF"
+                    android:textColorHint="#ffffff"
+                    android:textSize="34px" />
+
+                <ImageView
+                    android:id="@+id/clear"
+                    android:layout_width="40px"
+                    android:layout_height="40px"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginTop="56px"
+                    android:src="@mipmap/clear" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="340.2px"
+                android:layout_marginTop="493.9px"
+                android:src="@mipmap/one" />
+
+            <ImageView
+                android:id="@+id/two"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="564.8px"
+                android:layout_marginTop="493.9px"
+                android:src="@mipmap/two" />
+
+            <ImageView
+                android:id="@+id/three"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="804.2px"
+                android:layout_marginTop="493.9px"
+                android:src="@mipmap/three" />
+
+            <ImageView
+                android:id="@+id/four"
+                android:layout_width="28px"
+                android:layout_height="43px"
+                android:layout_marginLeft="340.2px"
+                android:layout_marginTop="615.3px"
+                android:src="@mipmap/four" />
+
+            <ImageView
+                android:id="@+id/five"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="564.8px"
+                android:layout_marginTop="615.3px"
+                android:src="@mipmap/five" />
+
+            <ImageView
+                android:id="@+id/six"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="804.2px"
+                android:layout_marginTop="615.3px"
+                android:src="@mipmap/six" />
+
+            <ImageView
+                android:id="@+id/seven"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="340.2px"
+                android:layout_marginTop="736.6px"
+                android:src="@mipmap/seven" />
+
+            <ImageView
+                android:id="@+id/eghit"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="564.8px"
+                android:layout_marginTop="736.6px"
+                android:src="@mipmap/eghit" />
+
+            <ImageView
+                android:id="@+id/nine"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="804.2px"
+                android:layout_marginTop="736.6px"
+                android:src="@mipmap/nine" />
+
+            <ImageView
+                android:id="@+id/tenty"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="340.2px"
+                android:layout_marginTop="861.8px"
+                android:src="@mipmap/tenty" />
+
+            <ImageView
+                android:id="@+id/zero"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="564.8px"
+                android:layout_marginTop="861.8px"
+                android:src="@mipmap/zero" />
+
+            <ImageView
+                android:id="@+id/ten"
+                android:layout_width="27px"
+                android:layout_height="43px"
+                android:layout_marginLeft="804.2px"
+                android:layout_marginTop="861.8px"
+                android:src="@mipmap/ten" />
+
+            <ImageView
+                android:id="@+id/bt_psw"
+                android:layout_width="194px"
+                android:layout_height="118px"
+                android:layout_marginLeft="1462.5px"
+                android:layout_marginTop="386.5px"
+                android:src="@mipmap/password" />
+
+            <ImageView
+                android:id="@+id/bt_phone"
+                android:layout_width="194px"
+                android:layout_height="118px"
+                android:layout_marginLeft="1462.5px"
+                android:layout_marginTop="596.4px"
+                android:src="@mipmap/phone" />
+
+            <ImageView
+                android:id="@+id/bt_face"
+                android:layout_width="194px"
+                android:layout_height="118px"
+                android:layout_marginLeft="1462.5px"
+                android:layout_marginTop="809.5px"
+                android:src="@mipmap/face" />
+        </FrameLayout>
+</android.support.constraint.ConstraintLayout>
