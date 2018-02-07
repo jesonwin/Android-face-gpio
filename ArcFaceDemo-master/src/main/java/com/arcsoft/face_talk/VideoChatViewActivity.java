@@ -268,6 +268,7 @@ public class VideoChatViewActivity extends AppCompatActivity {
             public void run() {
                 configFT311();
                 startActivity(new Intent(VideoChatViewActivity.this, HomeActivity.class));
+                gpiointerface.DestroyAccessory();
             }
         }, 4000);//这里停留时间为1000=1s。
     }
